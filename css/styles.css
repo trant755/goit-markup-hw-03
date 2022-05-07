@@ -254,6 +254,8 @@ color: var(--text-black);
 
 .team {
     background-color: var(--bg-grey);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team .title {
@@ -261,8 +263,26 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
+margin-bottom: 50px;
 
 color: var(--text-black);
+}
+
+.team .list {
+    display: flex;
+    align-items: center;
+}
+
+.team .item {
+    background-color: #FFFFFF;
+    margin-right: 30px;
+    padding-bottom: 30px;
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.team .item:last-child {
+    margin: 0;
 }
 
 .team .item-title {
@@ -271,6 +291,8 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
+margin-top: 30px;
+margin-bottom: 10px;
 
 color: var(--text-black);
 }
@@ -286,6 +308,8 @@ letter-spacing: 0.03em;
 
 .footer {
     background-color: var(--bg-dark);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer .text {
 line-height: 1.71;
@@ -295,11 +319,20 @@ color: #FFFFFF;
 }
 .address {
     font-style: normal;
+    margin-top: 20px;
+}
+.address .text {
+    margin-bottom: 9px;
+}
+
+.address .item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .address .link {
 line-height: 1.71;
 letter-spacing: 0.03em;
+
 
 color: #ffffff99;
 }
